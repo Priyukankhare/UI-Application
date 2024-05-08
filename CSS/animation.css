@@ -1,0 +1,75 @@
+.box
+{
+    width: 25%;
+    height: 100px;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 60px;
+    background-color: aqua;
+    /* animation-name: widthanimae;
+    animation-duration: 2s;
+    animation-timing-function:ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+
+    /* Animation shorthand instead of writing above all steps we write shorthand */
+    animation:percentanimae 3s ease-in 0s infinite normal;
+
+}
+
+@keyframes fontanimation
+{
+    from{
+        font-size: 20px;
+    }
+   to
+   {
+    font-size: 40px;
+   }
+}
+
+@keyframes background-color
+{
+    from{
+        background-color: blueviolet;
+    }
+    to
+    {
+        background-color: red;
+    }
+}
+@keyframes widthanimae
+{
+    from
+    {
+        width: 20px;
+        background-color: blueviolet;
+    }
+
+    to
+    {
+        width: 500px;
+        background-color: red;
+    }
+}
+
+@keyframes percentanimae
+{
+    0%
+    {
+        background-color: blueviolet;
+    }
+    50%
+    {
+        background-color: darkorange;
+    }
+    80%
+    {
+        background-color: pink;
+    }
+    100%
+    {
+        background-color: purple;
+    }
+}

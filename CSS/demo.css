@@ -1,0 +1,36 @@
+b{
+    color:black;
+    background-color:antiquewhite;
+    font-size: smaller; 
+     
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    color:brown ;
+    text-shadow: 0cm;
+    text-decoration-color:black;
+    text-decoration-line: underline;
+}
+
+.img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+   margin-top: 10px;
+    text-shadow: none;
+    box-shadow: 20px 3px 14px rgb(153, 151, 62);
+    margin-bottom: 10px;
+}
+.title{
+    background-color: lightpink;
+    font-size: 5vh;
+   
+   
+}
+.header-title{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,148 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: linear-gradient(to left,#3bb9ba,#baf0a7 );
+}
+.box
+{
+    width: 75%;
+    height: 480px;
+    margin: auto;
+
+    margin-top: 50px;
+   
+}
+.main
+{
+    width: 55%;
+   min-height:480px;
+    float: right;
+    border-radius: 10px;
+    background-color:white;
+
+}
+.main h1
+{
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(49, 139, 174);
+}
+.main p{
+    text-align: center;
+    margin-top: 5px;
+    color: grey;
+    letter-spacing: 2px;
+
+}
+
+input[type=text]
+{
+    width: 70%;
+    height: 40px;
+    margin-top: 20px;
+    background-color:rgb(250, 248, 248);
+    border-radius: 8px;
+    border:none;
+}
+input[type=text]::placeholder
+{
+    padding-left: 20px;
+}
+
+input[type=email]
+{
+    width: 70%;
+    height:40px;
+    margin-top: 20px;
+    margin-left: 54px;
+    background-color:rgb(250, 248, 248);
+    border-radius: 8px;
+    border:none;
+}
+input[type=email]::placeholder
+{
+    padding-left: 20px;
+}
+
+input[type=radio]
+{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.gen
+{
+    padding-left: 49px;
+}
+#fname
+{
+    margin-left: 55px;
+}
+
+#dob
+{
+    margin-left: 9px;
+}
+#city
+{
+    margin-left: 65px;
+}
+#country
+{
+    margin-left: 40px;
+}
+
+.button
+{
+    margin-left: 140px;
+    margin-top: 20px;
+}
+input[type=button]
+{
+    height: 30px;
+    width: 40%;
+    color: white;
+    background-color: rgb(61, 123, 148);
+    border-radius: 5px;
+    border: none;
+}
+
+input[type=button]:hover
+{
+    background-color: darkgreen;
+}
+#bash
+{
+    background-color: rgb(14, 14, 58);
+    margin-right: 20px;
+    border-radius: 5px;
+    
+    
+}
+
+#bash:hover
+{
+    background-color: darkgreen;
+}
+label
+{
+    margin-left: 35px;
+}
+
+.img
+{
+    width: 45%;
+   min-height:480px;
+    border-radius: 10px;
+    background-image: url(/Images/photography.jpeg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-size: cover;
+    background-position: center;
+
+}
+

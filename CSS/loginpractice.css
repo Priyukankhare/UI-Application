@@ -1,0 +1,166 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container
+{
+    width:90%;
+    height:500px;
+
+    margin:auto;
+    margin-top: 50px;
+    display: flex; 
+    justify-content:center;
+    background-color: white;
+    box-shadow: 2px 2px 8px black;
+    /* transition-delay: 1s; */
+    
+
+}
+.container:hover{
+    box-shadow: 2px 2px 16px white;
+    transition: 1s;
+    
+}
+.form
+{
+    width:35%;
+    height:430px;
+    margin-top: 32px;
+    /* border: 2px solid black; */
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: 2px 2px 16px black;
+    background-color: white;
+}
+.header
+{
+    width: 100%;
+    margin: 20px auto;
+}
+p
+{
+    color: rgb(140, 133, 133);
+}
+a{
+    color: rgb(204, 81, 204);
+    font-weight: bold;
+}
+.detail
+{
+    
+}
+label
+{
+    font-weight: 500;
+}
+input[type=email]
+{
+    width:100%;
+    margin:5px auto;
+    height: 30px;
+    padding-left: 2%;
+    margin-bottom: 15px;
+}
+input[type=password]
+{
+    width:100%;
+    margin:5px auto;
+    margin-bottom: 10px;
+    height: 30px;
+    padding-left: 2%;
+}
+.pass
+{
+    margin-left: 43%;
+}
+
+
+.button
+{
+    width:100%;
+    margin:5px auto;
+    background-color: rgb(204, 81, 204);
+    color: white;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.button:hover
+{
+    background-color: rgba(40, 209, 40, 0.882);
+}
+.footer
+{
+    width: 100%;
+}
+hr{
+    width:35%;
+    display:inline-block;
+}
+
+.footer p
+{
+    display:inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 20px;
+}
+.click input
+{
+    width: 40%;
+    margin: 2%;
+    height: 30px;
+}
+.google
+{
+    border: 1.5px solid red;
+    color: rgb(199, 52, 52);
+    font-weight: bold;
+    border-radius: 5px;
+    background-image: url(/Images/google.png);
+    background-repeat: no-repeat;
+    background-position:4%;
+}
+.fb
+{
+    border: 1.5px solid darkblue;
+    color: royalblue;
+    font-weight: bold;
+    border-radius: 5px;
+    background-image: url(/Images/fb.png);
+    background-repeat: no-repeat;
+    background-position:4%;
+}
+.fb:hover
+{
+    background-color: lightgrey;
+}
+.google:hover
+{
+    background-color: lightgrey;
+}
+.img
+{
+    width: 55%;
+    min-height: 300px;
+    background-image: url(/Images/login\ page.jpg);
+    height:430px;
+    margin-top: 32px;
+    box-shadow: 2px 2px 16px black;
+
+
+
+    /* background-size: cover; */
+}
+ body{
+    
+    background-image: linear-gradient(to left,#ae69ae, #2a484b);
+} 
+
+
+

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../Downloads/imageslidermaker/imageslidermaker/ism/js"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "UI"
+	}
+}

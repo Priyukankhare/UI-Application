@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    
+    background-image: linear-gradient(90deg, #ae69ae, #2a484b);
+}
+/* .container{
+    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+.container .form form{
+    border: 2px solid black;
+    height: 50vh;
+    width: 50%;
+    margin-left: 25%;
+   margin-top: 100px;
+   text-align: center;
+} */
+
+.box
+{
+    width:400px;
+    min-height: 250px ;
+    margin:150px auto;
+    background-color:white;
+    /* margin-left: 35%; */
+    border-radius: 15px;
+}
+.header
+{
+    margin-top: 10px;
+    text-align: center;
+    color:darkblue;
+}
+
+.attributes
+{
+    width: 100%;
+    margin-top: 30px;
+}
+
+input[type=text]
+{
+    
+    width: 90%;
+    
+    margin-bottom: 5px;
+    margin-left:10px;
+    height: 30px;
+    margin-top: 5px;
+    /*outline: none;
+    border: none;
+    border-bottom: 2px solid black;*/
+    background-image: url(../Images/user.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    border-color:black;
+   
+
+    
+}
+
+input[type=password]
+{
+    width:90%;
+    margin-left:10px;
+    height: 30px;
+    margin-top: 5px;
+    /*outline: none;
+    border: none;
+    border-bottom: 2px solid black;*/
+    border-color:black;
+    background-image: url(../Images/pass.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+   
+  
+}
+/* input[type=text],label
+{
+    margin-top: 5px;
+    height: 35px;
+    font-size: 15px; 
+    margin-left: 10px;
+}*/
+
+/*input[type=password],label
+{
+    margin-top: 5px;
+    height: 35px;
+    
+    /* font-size:15px; 
+    margin-left: 10px;
+} */
+input[type=submit]
+{
+    font-weight: 300;
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 30px;
+    height: 40px;
+    margin-bottom: 10px;
+    /* margin-left:5px; we write this on both way */
+    padding-left: 5px;
+    color:white;
+    background-color: royalblue;
+    
+    
+}
+label
+{
+    margin-top: 5px;
+    height: 35px;
+    font-size: 15px; 
+    margin-left: 10px;
+    margin-bottom: 3px;
+    font-size:17px;
+}
+p,a{
+    text-align: center;
+    margin-top: 5px;
+    color:  royalblue;
+    text-decoration: none;
+    
+}
+/* input[type=text]::placeholder
+{
+    padding-left: 8%;
+} */
+
+/* input[type=password]::placeholder
+{
+    margin-right: 20%;
+} */
+
+input[type=submit]:hover
+{
+    background-color: lightpink;
+    color: black;
+}
+

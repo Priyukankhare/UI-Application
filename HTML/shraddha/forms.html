@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML forms</title>
+</head>
+<!-- used simple approach -->
+<body>
+    <form>
+        username
+        <input type="text" placeholder="Enter the username"/>
+        <br>
+        number
+        <input type="number" placeholder="enter any number"/>
+        <br>
+        password
+        <input type="password" placeholder="enter the password"/>
+        <br>
+        time
+        <input type="time">
+        <br>
+        file
+        <input type="file">
+        <br>
+    </form>    
+    <form action="\action">
+    <hr/>
+    <!-- used label classical approach -->
+    <!-- <form>
+        <label for="username">username:</label>
+        <input type="text" placeholder="enter user name" id="username"/>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" placeholder="enetr password" id="password">
+    </form> -->
+    <!-- we can put this all in div tag also -->
+
+    <div>
+        <label for="username">username:</label>
+        <input type="text" placeholder="enter user name" id="username"/>
+        
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" placeholder="enetr password" id="password">
+
+    </div>
+    <button>Submit</button>
+</form>
+<hr/>
+<form action="https://www.youtube.com/results">
+    <input type="txt" placeholder="search in utube" name="search_query"/>
+    <button>Search</button>
+</form>
+<hr>
+<form action="https://www.google.com/search">
+    <input type="text" placeholder="search in google" name="q"/>
+    <button>search</button>
+    <div>
+    <input type="radio" name="fruit" id="apple">
+    <label for="apple">apple</label>
+
+    <input type="radio" name="fruit" id="mango">
+    <label for="mango">mango</label>
+
+    <input type="radio" name="fruit" id="banana">
+    <label for="banana">banana</label>
+
+    <input type="radio" name="fruit" id="orange">
+    <label for="orange">orange</label>
+
+</div>
+<div>
+    <input type="checkbox" id="english" name="subject">
+    <label for="english">english</label>
+
+    <input type="checkbox" id="math" name="subject">
+    <label for="math">math</label>
+
+    <input type="checkbox" id="science" name="subject">
+    <label for="science">science</label> 
+    
+    <input type="checkbox" id="history" name="subject">
+    <label for="history">history</label>
+
+</div>
+<div>
+    select your profession
+    <select name="profession" id="profession">
+        <option>select your option</option>
+        <!-- <option value="Student" selected>student</option>   aaplya already student selected pahijey mhanun appn as use kel-->
+        <option value="Student">student</option>    
+        <option value="Developer">Developer</option>
+    </select>
+</div>
+
+<label for="volume">enter your volume level</label>
+<input type="range"id="volume" min="0" max="100" name="vol">
+<hr>
+<label for="feedback">plese provide your valuable feedback</label>
+<textarea if="feedback"placeholder="Write here your feedback"></textarea>
+<button>submit</button>
+<!-- if we increse the size of text area we used the rows and columns attributes ok! -->
+</form>
+    
+</body>
+</html>
